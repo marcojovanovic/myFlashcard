@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flashcard</title>
+  <link href="main.css" rel='stylesheet' />
+  <link href="https://fonts.googleapis.com/css?family=Gotu&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+
+  <div class='container'>
+  <h1>Flashcards</h1>
+  <button id='add-item' class='btn btn-add'>Add Question</button>
+
+  <div class='input-group hide-item'>
+    <form class='form'>
+    <label for='Question'>Question</label>
+    <p class='close-btn'>X</p>
+    <input id='question' type='text' class='form-input' />
+    <label for='Answer'>Answer</label>
+    <input id='answer' type='text' class='form-input' />
+    <button id='save-item' class='btn btn-save'>Save</button>
+    </form>
+  </div>
+
+  <div class='question-container'>
+
+
+
+  <div class='question-answer'>
+     <h3>Question Title ?</h3>
+     <h4 class='show-hide'>Show/Hide Answer</h4>
+     <h3 class='hide-item'>Answer Title</h3>
+    <div class='btn-container'>
+      <button id='edit-item' class='btn btn-edit' data-id='1'>Edit</button>
+      <button id='delete-item' class='btn btn-delete'>Delete</button>
+    </div>
+  </div>
+
+
+
+    
+    
+  </div>
+ 
+</div>
+
+
+
+
+
+  <script src='main.js'></script>
+</body>
+</html>

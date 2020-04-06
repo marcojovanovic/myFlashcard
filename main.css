@@ -1,0 +1,133 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  font-size: 1.2rem;
+  font-family: 'Gotu', sans-serif;
+  background: #f4f4f4;
+  overflow: hidden;
+
+}
+
+h1{
+  margin-bottom: 1rem;
+
+}
+
+.show-item{
+  display: block;
+}
+
+
+.container{
+  margin: 2rem auto;
+  width: 1200px;
+
+}
+
+.question-answer{
+
+  margin-top: 6rem;
+  background: white;
+  width: 30%;
+  box-shadow: 0px 1px 1px 2px rgba(0,0,0,0.8);
+  padding: 2rem;
+  margin-left: 2rem;
+ 
+}
+
+h3, h4{
+  margin-bottom: 2rem;
+}
+
+.show-hide{
+  color:lightblue;
+  cursor: pointer;
+}
+
+.hide-item{
+  display: none !important;
+}
+
+
+.btn-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn{
+  font-family: inherit;
+  font-size: 1.4rem;
+  padding: 0.3rem 0.9rem;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+  background: transparent;
+
+}
+
+.btn:hover{
+  color:white;
+  background: orange;
+}
+
+
+.btn-edit{
+  border: 2px solid #2e792e;
+}
+.btn-delete{
+  border: 2px solid #4979c2;
+}
+.btn-save{
+  border: 2px solid #a08a42;
+  margin-top: 4rem;
+}
+.btn-add{
+  border: 2px solid #a08a42;
+}
+
+
+.input-group{
+
+ 
+  width: 50%;
+  position: relative;
+  padding: 2rem;
+  box-shadow: 0px 1px 1px 2px rgba(0,0,0,0.8);
+  margin-top: 2rem;
+  
+
+
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.question-container{
+  display: flex;
+ 
+}
+
+
+.close-btn{
+  position: absolute;
+  right:15px;
+  top:5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.form-input{
+
+  padding: 1.3rem;
+  border: 1px solid #a08a42;
+}
